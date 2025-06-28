@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content1  {
+    text-align: center;
+    
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.content2 {
+    margin-bottom: 40px;
+}
+
+.content3{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.main{
+    flex: 1;
+}
+
+.footer{
+    text-align: center;
+}
