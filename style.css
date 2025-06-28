@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 body {
@@ -13,11 +13,14 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 90px;
+    margin-top: 20px;
 }
 
 .header{
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
 }
 
 .header-bottom {
@@ -34,7 +37,7 @@ body {
 .boxes {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     margin-bottom: 30px;
 }
 
@@ -43,9 +46,14 @@ body {
 }
 
 .content3{
+    background-color: #3882f6;
+    color: white;
+    padding: 40px 80px;
+    margin: 140px 150px;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
-    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main{
@@ -54,4 +62,106 @@ body {
 
 .footer{
     text-align: center;
+    background-color: #1f2937;
+    padding: 50px;
+    color: white;
+}
+
+#logo{
+    font-size: 24px; 
+    color: #f9faf8;
+}
+
+#big {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header-top .right, .secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+#info {
+    font-size: 36px;
+    margin: 40px 0;
+    color: #1f2937;
+}
+
+#sign {
+    margin-top: 10px;
+    padding: 5px 30px;
+
+}
+
+.header-bottom .right img {
+  height: 200px;
+  width: 400px;
+  margin-bottom: 70px;
+}
+
+button, .content3{
+    background-color: #3882f6;
+}
+
+.info .text {
+    font-size: 30px;
+}
+
+.content2{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 80px 150px;
+    margin: 0;
+}
+
+
+#action{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+.content3 .text{
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+    
+}
+
+.content3 .button button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+section, .content1, .content2, .content3 {
+    padding: 80px 150px;
+    box-sizing: border-box;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+
+}
+
+.info .text {
+    font-size: 18px; /* increase from 14px or 16px to something bigger */
+    text-align: center;
+    color: #1f2937; /* optional: ensures it's readable */
+    margin-top: 10px; /* optional spacing */
 }
