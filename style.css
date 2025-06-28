@@ -13,8 +13,8 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 90px;
-    margin-top: 20px;
+    
+    margin: 20px 150px 100px;
 }
 
 .header{
@@ -26,6 +26,7 @@ body {
 .header-bottom {
     display: flex;
     justify-content: space-between;
+    margin: 0px 150px;
 
 }
 
@@ -58,6 +59,7 @@ body {
 
 .main{
     flex: 1;
+    
 }
 
 .footer{
@@ -121,7 +123,7 @@ button, .content3{
 
 
 #action{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
     margin-bottom: 5px;
     
@@ -164,4 +166,12 @@ section, .content1, .content2, .content3 {
     text-align: center;
     color: #1f2937; /* optional: ensures it's readable */
     margin-top: 10px; /* optional spacing */
+}
+
+a {
+    color: white;
+}
+
+button{
+    color: white;
 }
